@@ -34,6 +34,12 @@ The left side is considered the value of the angles in the range: [-90°; -45°]
 
 The right side is considered the value of the angles in the range: [45°; 90°]
 
+There are two .cpp files in the *control* package. 
+
+*first_node.cpp* is responsible for robot control and navigation
+
+*second_node.cpp* is responsible for receiving an input from the user and executing the corresponding action.
+
 The flowchart: 
 
 ![text](https://github.com/fenixkz/rt_assigment2/blob/master/images/Graph.svg)
