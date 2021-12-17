@@ -34,4 +34,4 @@ The left side is considered the value of the angles in the range: [-90°; -45°]
 
 The right side is considered the value of the angles in the range: [45°; 90°]
 
-The flowchart: ![text][https://github.com/fenixkz/rt_assigment2/blob/master/images/Graph.svg]
+The flowchart: ![text](https://github.com/fenixkz/rt_assigment2/blob/master/images/Graph.svg)
