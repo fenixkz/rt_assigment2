@@ -7,6 +7,9 @@ Also, an another process should be done that simulates an interface. It takes a 
 
 Problem details: the robot is equipped with laser scanner that gives a measurement of the distance to the closest obstacle in the range of approximately [-90°; 90°]. This interval is sampled with approximately 0.25° step. 
 
+![image](https://user-images.githubusercontent.com/35328429/235653982-92a98e4b-9173-4181-a0f1-77898ac750ac.png)
+
+
 ## Installation and requirements
 
 ### Requirements
