@@ -7,7 +7,12 @@ Also, an another process should be done that simulates an interface. It takes a 
 
 Problem details: the robot is equipped with laser scanner that gives a measurement of the distance to the closest obstacle in the range of approximately [-90°; 90°]. This interval is sampled with approximately 0.25° step. 
 
-## Installing 
+## Installation and requirements
+
+### Requirements
+- (http://wiki.ros.org/stage_ros)[stage_ros] 
+
+### Installation
 In order to be able to use that project, first you need to have a catkin workspace, then git clone this repository into your workspsace, and execute the following commands:
 
 `
