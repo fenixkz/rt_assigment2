@@ -23,7 +23,7 @@ $ catkin_make
 There are three main processes that need to be launched, each in different terminals:
 ```
 $ roscore
-$ rosrun stage_ros stageros $(rospack find second_assignment)/world/my_wld.world
+$ rosrun stage_ros stageros $(rospack find second_assignment)/world/my_world.world
 $ rosrun control first_node 
 $ rosrun control second_node
 ```
