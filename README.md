@@ -10,7 +10,7 @@ Problem details: the robot is equipped with laser scanner that gives a measureme
 ## Installation and requirements
 
 ### Requirements
-- (http://wiki.ros.org/stage_ros)[stage_ros] 
+- [stage_ros](http://wiki.ros.org/stage_ros) 
 
 ### Installation
 In order to be able to use that project, first you need to have a catkin workspace, then git clone this repository into your workspsace, and execute the following commands:
