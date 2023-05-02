@@ -1,13 +1,13 @@
 # Research Track Assignment 2
 
 ## Problem statement
-The robot is spawned inside a circle. The idea is to implement an algorithm that will autonomously navigate the robot along the circle.
+The robot is spawned inside a circle (image below). The idea is to implement an algorithm that will autonomously navigate the robot along the circle without crashing into walls.
 
 Also, an another process should be done that simulates an interface. It takes a command from the user: to increase or decrease the speed of the robot, and to reset the position of the robot.
 
 Problem details: the robot is equipped with laser scanner that gives a measurement of the distance to the closest obstacle in the range of approximately [-90°; 90°]. This interval is sampled with approximately 0.25° step. 
 
-![image](https://user-images.githubusercontent.com/35328429/235653982-92a98e4b-9173-4181-a0f1-77898ac750ac.png)
+![sample](https://user-images.githubusercontent.com/35328429/235654336-12721cf7-6d9d-4f1b-843b-59089a783718.png)
 
 
 ## Installation and requirements
@@ -44,9 +44,9 @@ The right side is considered the value of the angles in the range: [45°; 90°]
 
 There are two .cpp files in the *control* package. 
 
-*first_node.cpp* is responsible for robot control and navigation
+- _**first_node.cpp**_ is responsible for robot control and navigation
 
-*second_node.cpp* is responsible for receiving an input from the user and executing the corresponding action.
+- _**second_node.cpp**_ is responsible for receiving an input from the user and executing the corresponding action.
 
 The flowchart: 
 
